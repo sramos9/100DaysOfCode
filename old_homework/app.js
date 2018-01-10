@@ -79,8 +79,27 @@
 
 // Object literal shorthand
 
-const name = "gizmo";
-const age = 1;
+// const name = "gizmo";
+// const age = 1;
+//
+// const mogwai = {name, age}
+// console.log(mogwai);
 
-const mogwai = {name, age}
-console.log(mogwai);
+
+// KEYS THAT ARE NUMBERS //
+
+// const testObject = {}
+// testObject['this is a test'] = "test";
+// console.log(testObject['this is a test']);
+//
+// testObject[2] = "I'm just messing around with objects";
+// console.log(testObject[2]);
+
+// const obj = {
+//   whatevs: "hi"
+// }
+//
+// if (obj.whatevs == "hi"){
+//   console.log("ok");
+// }
+// console.log(obj.whatevs);
