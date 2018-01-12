@@ -18,6 +18,3 @@ return longestWord.length;
 }
 
 console.log(findLongestWord("The quick brown fox jumped"));
-console.log(findLongestWord(longest));
-//keep this function call here
-//LongestWord(readline());
