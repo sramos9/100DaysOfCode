@@ -50,22 +50,36 @@
 
 //Day #5
 
-const grades = [4, 73, 67, 38, 33];
-const roundUp = [];
-const postGrades = ()=> {
-  for(let i = 0; i<= grades.length; i++)
-  if(grades < 40){
-    return grades;
-  } else if {
-      const newGrade = () => {
-        // place holder for new grade IF that is less than or equal to 2
-        (grades[i] >= 40 && grades[i] + 2 || 1 == grades[i] % 5 = 0){
-          return grades[i]
-          // i think this is where you would take that outcome and push it into roundUp array.
-          
-          // if it is greater than 3 round it up to the next multiple of 5
-      }
-    }
-  }
+// const grades = [4, 73, 67, 38, 33];
+// const roundUp = [];
+// const postGrades = ()=> {
+//   for(let i = 0; i<= grades.length; i++)
+//   if(grades < 40){
+//     return grades;
+//   } else if {
+//       const newGrade = () => {
+//         // place holder for new grade IF that is less than or equal to 2
+//         (grades[i] >= 40 && grades[i] + 2 || 1 == grades[i] % 5 = 0){
+//           return grades[i]
+//           // i think this is where you would take that outcome and push it into roundUp array.
+//
+//           // if it is greater than 3 round it up to the next multiple of 5
+//       }
+//     }
+//   }
+// };
+// console.log(postGrades);
+
+
+// code callenge from booking
+
+function luckNumber {
+
+
+if (n % 4 != 0 || n % 13 != 0){
+      console.log(n);;
+
+  };
 };
-console.log(postGrades);
+
+luckNumber();
