@@ -73,13 +73,24 @@
 
 // code callenge from booking
 
-function luckNumber {
+// function luckNumber {
+//
+//
+// if (n % 4 != 0 || n % 13 != 0){
+//       console.log(n);;
+//
+//   };
+// };
+//
+// luckNumber();
 
+//code challenge from hacker rank -- jen
 
-if (n % 4 != 0 || n % 13 != 0){
-      console.log(n);;
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
 
-  };
-};
-
-luckNumber();
+factorial(4);
