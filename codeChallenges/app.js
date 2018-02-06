@@ -86,11 +86,29 @@
 
 //code challenge from hacker rank -- jen
 
-function factorial(n) {
-  if (n === 0) {
-    return 1;
-  }
-  return n * factorial(n - 1);
+// function factorial(n) {
+//   if (n === 0) {
+//     return 1;
+//   }
+//   return n * factorial(n - 1);
+// }
+//
+// factorial(4);
+
+//1. an array of integers, arr, denoting the elements in the array.
+//2. an integer, k, denoting the element to be searched in the array.
+//the function must return a string "YES" or "NO" if element is present in the arr or not.
+
+function findNumber(arr, k) {
+
+    for(let i = 0; i <= arr.length; i++) {
+        if(arr[i] === k) {
+            return "YES";
+        } else {
+            return "NO";
+        }
+    }
+
 }
 
-factorial(4);
+findNumber([1, 2, 3], 5);
