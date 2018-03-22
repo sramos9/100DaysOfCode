@@ -1,15 +1,15 @@
 console.log('run import');
 
-var myFirstName = 'Sam';
+// var myFirstName = 'Sam';
+//
+// console.log(myFirstName);
 
-console.log(myFirstName);
+// var number = 1;
+// var question = true;
 
-var number = 1;
-var question = true;
-
-if (question == true) {
-  console.log("Is true");
-}
+// if (question == true) {
+//   console.log("Is true");
+// }
 
 //var movies = ['Die Hard', 'Avatar', 'Forrest Gump'];
 //console.log(movies);
@@ -23,3 +23,14 @@ if (question == true) {
 //   lastName: "Jones"
 // };
 //console.log(user.name);
+
+// CONTROL STRUCTURES
+// var userName = "James";
+var userName;
+var lastName = "Parker";
+
+if (userName) {
+  console.log("Has a name");
+} else if (lastName) {
+    console.log("Has a lastname");
+}
