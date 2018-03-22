@@ -25,12 +25,37 @@ console.log('run import');
 //console.log(user.name);
 
 // CONTROL STRUCTURES
-// var userName = "James";
-var userName;
+var userName = "Ron";
+// var userName;
 var lastName = "Parker";
 
-if (userName) {
-  console.log("Has a name");
-} else if (lastName) {
-    console.log("Has a lastname");
+// if (userName) {
+//   console.log("Has a name");
+// } else if (lastName) {
+//     console.log("Has a lastname");
+// }
+
+// if(userName === "James"){
+//   console.log("Has value");
+// } else {
+//   console.log("It's someone else");
+// }
+
+// SWITCH STATEMENT
+
+var slot = 2;
+
+switch (slot) {
+  case 1:
+    console.log("Won a TV");
+    break;
+  case 2:
+    console.log("Won a Playstation");
+    break;
+  case 3:
+    console.log("won a TV");
+    break;
+  default:
+    console.log("Spin again");
+
 }
