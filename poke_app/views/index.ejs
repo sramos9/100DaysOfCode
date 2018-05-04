@@ -4,8 +4,23 @@
     <meta charset="utf-8">
     <title>pokemon</title>
   </head>
-  <link rel="stylesheet" href="/css/style.css">
+  <style type="text/css">
+    body {
+      color: blanchedalmond;
+      background-color: steelblue;
+      font-family: arial
+    }
+  </style>
   <body>
-    <h1>See All The Pokemon</h1>
-  </body>
-</html>
+      <h1>See All The Pokemon</h1>
+      <ul>
+    <% for (let i = 0; i < pokemon.length; i++ ) { %>
+      <li>
+        <a href="pokemon/<%= i %>">
+        <%= pokemon[i].name %>
+        </a>
+      </li>
+    <% } %>
+    </ul>
+    </body>
+  </html>
