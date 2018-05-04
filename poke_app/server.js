@@ -15,7 +15,7 @@ app.get('/pokemon/', (req, res) => {
 app.get('/pokemon/:id', (req, res) =>{
   res.send(req.params.id);
 })
-
+3
 app.listen(3000, ()=> {
   console.log('listening');
 });
