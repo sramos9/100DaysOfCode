@@ -14,8 +14,8 @@ app.get('/pokemon/', (req, res) => {
 
 app.get('/pokemon/:id', (req, res) =>{
   res.render('show.ejs', {pokemon: pokemon[req.params.id]});
-})
-3
+});
+
 app.listen(3000, ()=> {
   console.log('listening');
 });
