@@ -99,16 +99,32 @@
 //2. an integer, k, denoting the element to be searched in the array.
 //the function must return a string "YES" or "NO" if element is present in the arr or not.
 
-function findNumber(arr, k) {
+// function findNumber(arr, k) {
+//
+//     for(let i = 0; i <= arr.length; i++) {
+//         if(arr[i] === k) {
+//             return "YES";
+//         } else {
+//             return "NO";
+//         }
+//     }
+//
+// }
+//
+// findNumber([1, 2, 3], 5);
 
-    for(let i = 0; i <= arr.length; i++) {
-        if(arr[i] === k) {
-            return "YES";
-        } else {
-            return "NO";
-        }
+
+//project euler
+
+function findMultiples() {
+
+  for(let i =0; i <= 10; i++) {
+    if(i % 3 || i % 5) {
+      return i;
+    } else {
+      return "not a multiple";
     }
-
+  }
 }
 
-findNumber([1, 2, 3], 5);
+findMultiples();
