@@ -128,3 +128,20 @@ function findMultiples() {
 }
 
 findMultiples();
+
+
+
+// new practice
+// for  loops
+
+//starting point - ending point - count 1
+
+//for () {
+  //
+//}
+
+for (var x = 0; x <= 5; x++) {
+  for (var j = 0; j <= 5; j++) {
+    console.log('first loop');
+  }
+}
